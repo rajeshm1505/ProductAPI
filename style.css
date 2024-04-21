@@ -1,0 +1,41 @@
+h1{
+    color:cadetblue;
+}
+
+.main-container{
+    text-align:  center;
+}
+
+.card-container{
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: #0a0a23; 
+}
+
+@media screen and (min-width: 400px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 410px;
+        height: 300px;
+        background-color: #0a0a23; 
+    }
+}
